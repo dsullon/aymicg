@@ -11,6 +11,7 @@
 
 	    <title>AYMI S.A.C.</title>
 	    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	    <link href="css/aymi.css" rel="stylesheet">
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	    <style type="text/css">
@@ -31,7 +32,7 @@
 			/* Set the fixed height of the footer here */
 			#push,
 			#footer {
-				height: 60px;
+				height: 280px;
 			}
       		#footer {
 		        background-color: #f5f5f5;
@@ -57,7 +58,7 @@
 		        padding-top: 0px;
 		    }
       		.container .credit {
-		        margin: 20px 0;
+		        margin: 5px 0;
 		    }
 
       		code {
