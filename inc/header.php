@@ -54,7 +54,7 @@
       		/* Not required for template or sticky footer method. */
 
      		#wrap > .container {
-		        padding-top: 10px;
+		        padding-top: 0px;
 		    }
       		.container .credit {
 		        margin: 20px 0;
@@ -63,6 +63,12 @@
       		code {
 		        font-size: 80%;
 		    }
+		    .navbar {
+			    color: #ecf0f1;
+			    background-color: #f5f5f5;
+			    border-radius: 0px !important;
+			    margin-bottom: 0;
+			}
     	</style>
 	</head>
 	<body>
@@ -72,8 +78,11 @@
 					<div class="row">
 						<div class="col-md-9">
 							<div class="row">
-								<div class="col-md-9">
+								<div class="col-md-3">
 									<img src="img/logo.png" alt="AymiCG">
+								</div>
+								<div class="col-md-9">
+									<h1>Aislamiento y Montajes Industriales <small>Contratista generales</small></h1>
 								</div>
 							</div>
 						</div>
@@ -90,7 +99,7 @@
 					</div>
 				</div>
 			</div>
-			<nav class="navbar navbar-inverse">
+			<nav id="custom-bootstrap-menu" class="navbar navbar-default bg-primary">
 				<div class="container">
 				    <div class="navbar-header">
 				    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
